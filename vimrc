@@ -10,10 +10,9 @@ set nocompatible
 "" shiftwidth defines amount of whitespace to insert/remove with indentation commands
 "" Indent with four whitespace characters
 set ts=4 sts=4 sw=4 expandtab
-""set tabstop=4
-""set softtabstop=4
-""set shiftwidth=4
-""set expandtab
+
+"" Allow backspacing over auto indents, line breaks, and the start of an insert
+set backspace=indent,eol,start
 
 " Set tabstop, softtabstop and shiftwidth to the same value
 " Copied from http://vimcasts.org/episodes/tabs-and-spaces/
@@ -44,5 +43,5 @@ function! SummarizeTabs()
   endtry
 endfunction
 
-"" Use syntax highlighing
+"" Turn on syntax highlighing
 syntax on
