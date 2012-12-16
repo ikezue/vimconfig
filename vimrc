@@ -1,3 +1,7 @@
+"" Use Vim defaults, not Vi's.  Note that this is the default when a user vimrc
+"" exists, but made explicit here to be absolutely certain:
+"" http://vimdoc.sourceforge.net/htmldoc/options.html#'compatible'
+set nocompatible
 
 "" Defining tab behavior
 "" tabstop defines tab width
