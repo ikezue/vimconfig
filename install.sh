@@ -60,5 +60,9 @@ done
 # Install bundles
 vim +BundleInstall +qall 2>/dev/null
 
+# Rename Git remote
+cd .vim
+git remote rename origin github
+
 echo "Done!  Vim is fully configured."
 exit 0
