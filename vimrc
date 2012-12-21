@@ -11,6 +11,9 @@ call vundle#rc()
 "" Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
+"" Bundles
+Bundle 'LaTeX-Box-Team/LaTeX-Box'
+
 "" Allow backspacing over auto indents, line breaks, and the start of an insert
 set backspace=indent,eol,start
 
