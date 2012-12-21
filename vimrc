@@ -2,6 +2,14 @@
 "" exists, but made explicit here to be absolutely certain:
 "" http://vimdoc.sourceforge.net/htmldoc/options.html#'compatible'
 set nocompatible
+filetype off
+
+"" Vundle settings
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+"" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
 
 "" Allow backspacing over auto indents, line breaks, and the start of an insert
 set backspace=indent,eol,start
