@@ -42,7 +42,7 @@ fi
 
 # Create symbolic link $HOME/.vimrc -> $HOME/.vim/vimrc
 cd $HOME
-files = (vimrc) # replace with 'files = (vimrc gvimrc)' in Windows-enabled version
+files=(vimrc) # replace with 'files=(vimrc gvimrc)' in Windows-enabled version
 for f in "${files[@]}"; do
   if [ -f ".$f" ]; then
     timestamp=$(date "+%Y%m%d_%H%M%S")
