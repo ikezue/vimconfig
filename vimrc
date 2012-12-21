@@ -11,7 +11,7 @@ syntax on
 
 "" Enable file type detection, and load plugins and indent files for known file
 "" types. This enforces language-specific behavior and indentation.
-set filetype plugin indent on
+filetype plugin indent on
 
 "" Defining tab behavior
 "" tabstop defines tab width
